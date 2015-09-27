@@ -1,0 +1,30 @@
+<h1 id="index"> Your technician is informed. See you. </h1>
+<h1 id="index"><%= image_tag "technician2.jpg"%></h1>
+<h1 id="index"> You can also book another appointment, if you want to.</h1>
+ <a href="../technicians/show" class="button">New appointment</a>
+<%#
+
+<h1 id="index"> You can book another appointment, if you want to. </h1>
+<button type="button" id="button"><%= link_to 'New Appointment', show_technicians_path %></button>
+<%#<script>
+
+$(document).ready(function() {
+
+    // page is now ready, initialize the calendar...
+
+    $('#calendar').fullCalendar({
+        // put your options and callbacks here
+       
+    })
+
+});
+</script>
+
+<div id='calendar'></div>
+
+ <%= link_to 'free', new_appointment_path %>
+
+<%#<% @appointments.each do |appointment| %>
+<%#  <%= link_to appointment.date, appointment %>
+<%# <% end %>
+

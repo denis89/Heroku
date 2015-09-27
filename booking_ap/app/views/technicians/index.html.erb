@@ -1,0 +1,52 @@
+<!-- Header -->
+<header id="header">
+  <h1><a href="index.html">Technicians</a></h1>
+  <nav id="nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+     
+    </ul>
+  </nav>
+</header>
+
+<!-- Two -->
+<section id="two" class="wrapper style2 align-center">
+  <div class="container">
+    <header>
+    </header>
+    <div class="row">
+      <section class="feature 6u 12u$(small)">
+        <%= link_to technician_path(1) do %>
+          <%= image_tag "1.jpg", class:"image fit" %>
+        <% end %>
+        <h3 class="title">Daniel Meyer</h3>
+        <p></p>
+      </section>
+
+      <section class="feature 6u$ 12u$(small)">
+        <%= link_to technician_path(2) do %>
+          <%= image_tag "2.jpg", class:"image fit" %></a>
+        <% end %>
+        <h3 class="title">Mark Schmidt</h3>
+        <p></p>
+      </section>
+      
+      <section class="feature 6u 12u$(small)">
+        <%= link_to technician_path(3) do %>
+          <%= image_tag "3.jpg", class:"image fit" %></a>
+        <% end %>
+        <h3 class="title">Thomas Maier</h3>
+        <p></p>
+      </section>
+      
+      <section class="feature 6u$ 12u$(small)">        
+       <%= link_to technician_path(4) do %>
+          <%= image_tag "4.jpg", class:"image fit" %></a>
+        <% end %>
+        <h3 class="title">Alex Schmitt</h3>
+        <p></p>
+      </section>
+    </div>
+          
+  </div>
+</section>

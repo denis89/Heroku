@@ -1,0 +1,9 @@
+// Place all the styles related to the technicians controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#technicians-index {
+  width: 400px;
+  border: 1px solid red;
+}
